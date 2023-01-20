@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: open Sans,sans-serif;
+}
+
+.h1{
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+    background-color: cadetblue;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-ul{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+main{
+    display:flex;
+    padding-bottom: 20vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2013/02/21/19/10/grass-84622_960_720.jpg");
+}
+
+.caixa-input{
+    width: 85vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+   width: 40vw;
+   height: 37px;
+   text-align: center;
+   border: none;
+   border-radius: 5px;
+   background-color: aquamarine; 
+}
+
+.input:focus{
+font-size: 1rem;
+color: #ff8f01;
+box-shadow: 1px .1px .2px 2px #ff8f01;
+outline: 0;
+} 
+
+.input:hover{
+    color: #ff8f01;
+    box-shadow: 1px .1px .2px 2px #ff8f01;
+}
+
+.button{
+    font-size: 1rem;
+    font-weight: 500rem;
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    margin-left: 5px;
+
+}
+
+.button:focus{
+    font-size: 1rem;
+    color: #ff8f01;
+    box-shadow: 1px .1px .2px 2px #ff8f01;
+    outline: 0;
+    } 
+    
+    .button:hover{
+        color: #ff8f01;
+        box-shadow: 1px .1px .2px 2px #ff8f01;
+    }
+.img-item-1{
+    width: 500px;
+    height: 250px;
+}
+
+.img-item{
+    width: 500px;   
+    height: 200px;
+}
+
+/*.paragrafo{
+    max-width: 26.6vw;
+    min-height: 20vh;
+    background-color: blue; 
+    margin-top: -720px;
+    padding: 1rem;
+
+}
+.caixa-2{
+    
+    min-height: 100vh;
+}
+
+.container-caixa{
+    background-color: red;
+    width: 200vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1100px;
+}
+.secao{
+
+}
+.caixa-3{
+ //margin-top: -300px;
+}
+
+*/
+.container-caixa{
+    max-width: 26.8vw;
+    max-height: 95vh;
+    
+}
+
+p{
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 1.4rem; 
+}
+.paragrafo{
+   margin-bottom: 20px;
+}
+.caixa-do-rodape{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+.rodape{
+    gap: 30px; 
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
